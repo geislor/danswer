@@ -26,11 +26,11 @@ huggingface-hub==0.20.1
 jira==3.5.1
 jsonref==1.1.0
 langchain==0.1.17
-langchain-community==0.0.36
+langchain-community==0.2.5
 langchain-core==0.1.50
 langchain-text-splitters==0.0.1
-litellm==1.37.7
-llama-index==0.9.45
+litellm==1.40.16
+llama-index==0.10.13
 Mako==1.2.4
 msal==1.26.0
 nltk==3.8.1
