@@ -5937,12 +5937,12 @@ xmlsec = ["xmlsec (>=0.6.1)"]
 
 [[package]]
 name = "zenpy"
-version = "2.0.41"
+version = "2.0.49"
 description = "Python wrapper for the Zendesk API"
 optional = false
 python-versions = "*"
 files = [
-    {file = "zenpy-2.0.41.tar.gz", hash = "sha256:c55c84a85ebdbe949c2cb54ca2436ac6be05e8e2992e1d9a8e6dfb12056edef5"},
+    {file = "zenpy-2.0.49.tar.gz", hash = "sha256:39303ce90a5cf8ed71e753fa5f0ae429ad3e52324e633c57e62cd8f987e3ef3f"},
 ]
 
 [package.dependencies]
