@@ -5366,13 +5366,13 @@ files = [
 
 [[package]]
 name = "types-oauthlib"
-version = "3.2.0.9"
+version = "3.2.0.20240217"
 description = "Typing stubs for oauthlib"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 files = [
-    {file = "types-oauthlib-3.2.0.9.tar.gz", hash = "sha256:eeabb7f596a2a322c6a2b6e8dd96fa514f54ed891f989614dc82e7ed3f8c2cf7"},
-    {file = "types_oauthlib-3.2.0.9-py3-none-any.whl", hash = "sha256:6be46242d230d09898f7b664d110364c71a36e3751b9b237a1c7d22ebdb7e40c"},
+    {file = "types-oauthlib-3.2.0.20240217.tar.gz", hash = "sha256:2b58e68b549f37ea1fe725cd7e78661a58679c16d2e83d53f1e531588ad72223"},
+    {file = "types_oauthlib-3.2.0.20240217-py3-none-any.whl", hash = "sha256:aa8b50a6737a0c75ea2a19e4598cfabd767ca5fba8d5310dc736afaa179db14d"},
 ]
 
 [[package]]
@@ -5988,4 +5988,4 @@ typing-extensions = ">=4.5.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2e42013628bde765eef4b5a4dd1fca658909fcfbf827c8d733411f9f71862712"
+content-hash = "6629acbf2851e8ee16ffe4acf7ee1164cf6329039b968b94b127ed3fb06bbd6d"
