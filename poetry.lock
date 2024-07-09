@@ -2590,25 +2590,6 @@ docs = ["alabaster (==0.7.16)", "autodocsumm (==0.2.12)", "sphinx (==7.3.7)", "s
 tests = ["pytest", "pytz", "simplejson"]
 
 [[package]]
-name = "matrix-client"
-version = "0.3.2"
-description = "Client-Server SDK for Matrix"
-optional = false
-python-versions = "*"
-files = [
-    {file = "matrix_client-0.3.2-py2.py3-none-any.whl", hash = "sha256:2855a2614a177db66f9bc3ba38cbd2876041456f663c334f72a160ab6bb11c49"},
-    {file = "matrix_client-0.3.2.tar.gz", hash = "sha256:dce3ccb8665df0d519f08e07a16e6d3f9fab3a947df4b7a7c4bb26573d68f2d5"},
-]
-
-[package.dependencies]
-requests = "*"
-
-[package.extras]
-doc = ["Sphinx (==1.4.6)", "sphinx-rtd-theme (==0.1.9)", "sphinxcontrib-napoleon (==0.5.3)"]
-format = ["flake8"]
-test = ["pytest", "responses"]
-
-[[package]]
 name = "more-itertools"
 version = "10.3.0"
 description = "More routines for operating on iterables, beyond itertools"
@@ -5992,23 +5973,22 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 
 [[package]]
 name = "zulip"
-version = "0.8.2"
+version = "0.9.0"
 description = "Bindings for the Zulip message API"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.8"
 files = [
-    {file = "zulip-0.8.2-py3-none-any.whl", hash = "sha256:22ba357f55c538120eef02781faeb46a256aad4f7a1b5419889f765766cda0a5"},
-    {file = "zulip-0.8.2.tar.gz", hash = "sha256:7e3d5097feb22e912dda187cdabdebf5b2022cba95b32a43793e27abe9c52e6f"},
+    {file = "zulip-0.9.0-py3-none-any.whl", hash = "sha256:a315db3e990c6b94aef323540b7f386485e8fc359dbd26af526c20dbe9068217"},
+    {file = "zulip-0.9.0.tar.gz", hash = "sha256:7a14149e5d9e3fcc53b13e998719fd1f6ccb8289bc60fccbaa1aafcd0a9d0843"},
 ]
 
 [package.dependencies]
 click = "*"
 distro = "*"
-matrix-client = "*"
 requests = {version = ">=0.12.1", extras = ["security"]}
-typing-extensions = ">=3.7"
+typing-extensions = ">=4.5.0"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ee9f279f7534a32495eedbe0b07e04918973b5bfe4b0aaad6dd817419c2690e4"
+content-hash = "a570b7b432d321aa233cada5aad8fb4f7b2d22eb5283e913df01d77b2fdb8c9c"
