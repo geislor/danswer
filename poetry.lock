@@ -4399,13 +4399,13 @@ pyasn1 = ">=0.1.3"
 
 [[package]]
 name = "rt"
-version = "3.1.2"
+version = "3.1.4"
 description = "Python interface to Request Tracker API"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "rt-3.1.2-py3-none-any.whl", hash = "sha256:eb15714c9ca8b6e795343d2d321800dde4a693d4f06ae1e3a7c11dbd0fcccb30"},
-    {file = "rt-3.1.2.tar.gz", hash = "sha256:417eb00ba55e7e778e49ce8d225b5a958fd5a4c4b29a40fe668c764f7e96e4a8"},
+    {file = "rt-3.1.4-py3-none-any.whl", hash = "sha256:44b6c089ba461e268f9531b5e030d48cd9d1aa76df95fa5482aeb8d4e59feced"},
+    {file = "rt-3.1.4.tar.gz", hash = "sha256:15321e0dda3f38ce0c58ca7b556868cd9c89f6647dab21b10c10ecb6603b13a3"},
 ]
 
 [package.dependencies]
@@ -4413,7 +4413,7 @@ httpx = "*"
 requests = "*"
 
 [package.extras]
-dev = ["codespell", "flake8", "flake8-bandit", "flake8-comprehensions", "flake8-docstrings", "mypy", "pep8-naming", "pycodestyle", "pylint", "ruff", "types-requests"]
+dev = ["bandit", "codespell", "mypy", "ruff", "types-requests"]
 docs = ["furo", "sphinx", "sphinx-autodoc-typehints", "sphinx-copybutton", "sphinx-rtd-theme"]
 test = ["coverage", "pytest", "pytest-asyncio"]
 
@@ -5998,4 +5998,4 @@ typing-extensions = ">=4.5.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "dfc18bc89b2721fd9d004ea7809f2196b89aa8386c1cb296b003881c6e80b1fc"
+content-hash = "4a74587fd9461ad79a1342c47cae25ceec79cc0fb53dc174434fab8f0fc5f941"
