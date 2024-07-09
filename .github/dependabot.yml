@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "pip" # O Dependabot usa "pip" para o Poetry também
     directory: "/" # Caminho para o diretório onde o pyproject.toml está localizado
     schedule:
-      interval: "weekly" # Ou qualquer outro intervalo de sua escolha
+      interval: "daily" # Ou qualquer outro intervalo de sua escolha
     # Opcional: inclua limites de versão para atualizações automáticas
     allow:
       - dependency-type: "all"
