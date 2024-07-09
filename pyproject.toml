@@ -68,7 +68,7 @@ rfc3986 = "1.5.0"
 rt = "3.1.2"
 simple-salesforce = "1.12.6"
 slack-sdk = "3.20.2"
-sqlalchemy = {version = "2.0.15", extras = ["mypy"]}
+sqlalchemy = {version = "2.0.31", extras = ["mypy"]}
 starlette = "0.36.3"
 supervisor = "4.2.5"
 tiktoken = "0.4.0"
