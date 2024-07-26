@@ -84,7 +84,7 @@ python3-saml = "1.15.0"
 h5py = "3.9.0"
 safetensors = "0.4.2"
 sentence-transformers = "2.6.1"
-torch = "2.0.1"
+torch = "2.4.0"
 
 
 [tool.poetry.group.dev.dependencies]
